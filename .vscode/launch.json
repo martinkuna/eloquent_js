@@ -7,11 +7,20 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "Launch ch3",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\ch2-program-structure.js"
+            "program": "${workspaceFolder}/ch3-functions.js",
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch ch2",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/ch2-program-structure.js"
         }
     ]
 }
