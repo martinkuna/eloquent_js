@@ -11,7 +11,7 @@ console.log("\n\tv1 looping a triangle");
 
 console.log("\n\tv2 looping a triangle");
 {
-    for (let line = "#"; line.length <= 7; line += "#")
+    for (let line = "#"; line.length < 8; line += "#")
         console.log(line);
 }
 
