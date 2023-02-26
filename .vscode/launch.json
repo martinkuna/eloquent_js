@@ -7,6 +7,15 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "Launch ch4",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/ch4-data-structures-objects-and-arrays.js",
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "Launch ch3",
             "skipFiles": [
                 "<node_internals>/**"
